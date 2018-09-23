@@ -1,23 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+
 /* When there is more text than available, the page scrolls down */
 html {
 	overflow-y: scroll;
 }
 
 body {
-	font-family: "Palatino", Times, serif;
-	font-size: 100%;
+	font-family: "PT Serif", serif;
+	font-size: 120%;
 	line-height: 1.7em;
 	color: #000000;
 	margin: 0%;
+	text-align: justify;
 }
 
 /***************************** TOP ROW *****************************/
 /* Includes Name, University/Job Position, Navigation Bar*/
 #top_row{
 	padding: 1% 7.5% 1% 7.5%;
-	background-size: cover; 
-	background-color: #FFFFFF;
-	color: #756bb1;
+	/*background-size: cover; */
+	/*background-color: #a6cee3;*/
+	color: #1f78b4;
 	left: 0;
     overflow: hidden;
     right: 0;
@@ -39,11 +43,12 @@ body {
 }
 
 #top_row nav a.selected {
-	color: #FFFFFF;
+	color: #de2d26;
 }
 
 #top_row nav a:hover{
-	color: #D94443;
+	/*color: #D94443;*/
+	text-decoration: underline;
 }
 
 #top_row h3 {
@@ -53,6 +58,16 @@ body {
 /*******************************************************************/
 
 /**************************** CONTAINER ****************************/
+
+/* Everything*/
+#everything {
+	width: 100%;
+	margin: 0% auto;
+	margin-top: 0%;
+	background-size: cover;
+	background-color: #a6cee3;
+}
+
 /* Everything under top row */
 #container {
 	width: 85%;
@@ -122,6 +137,7 @@ footer a {
 
 /* Adds border on right for tabs in navigation bar and footer */
 nav a, footer a { 
+	font-family: "PT Serif", serif;
 	border-right: 1px solid #000000; 
 }
 
@@ -136,7 +152,7 @@ a[href="contact.html"] {
 
 /* Color for links */
 a:link, a:visited {
-	color: #1695A3;
+	color: #1f78b4;
 	text-decoration: none;
 }
 
