@@ -138,7 +138,7 @@ footer a {
 /* Adds border on right for tabs in navigation bar and footer */
 nav a, footer a { 
 	font-family: "PT Serif", serif;
-	border-right: 1px solid #000000; 
+	border-right: none; /*1px solid #000000; */
 }
 
 /* Removes right border for tabs linking to the given pages */
