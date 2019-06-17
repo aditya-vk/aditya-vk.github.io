@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif');
-
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|EB+Garamond&display=swap');
 
 /* When there is more text than available, the page scrolls down */
 html {
@@ -7,8 +7,8 @@ html {
 }
 
 body {
-	font-family: "PT Serif", serif;
-	font-size: 120%;
+	font-family: "Crimson Text", serif;
+	font-size: 150%;
 	line-height: 1.7em;
 	color: #000000;
 	margin: 0%;
@@ -137,7 +137,7 @@ footer a {
 
 /* Adds border on right for tabs in navigation bar and footer */
 nav a, footer a { 
-	font-family: "PT Serif", serif;
+	font-family: "Crimson Text", serif;
 	border-right: none; /*1px solid #000000; */
 }
 
